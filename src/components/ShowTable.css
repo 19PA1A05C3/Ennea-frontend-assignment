@@ -1,0 +1,62 @@
+.showtable-container{
+    display:inline-block;
+}
+.table-container{
+    align-items:center;
+}
+table{
+    width:90%;
+    background-color:white;
+    margin:5px auto;
+    border-radius:10px;
+    padding:15px;
+    border:1px solid black;
+    border-collapse: collapse;
+}
+thead{
+    background-color: aqua;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight:600;
+}
+th{
+    padding:5px;
+    min-width:10%;
+}
+tbody{
+    background-color: rgb(255, 255, 255);
+     
+}
+td{
+    padding:2px 4px;
+    border:1px solid black;
+    text-align: center;
+    
+}
+
+input.search{
+    width:20%;
+    min-height:30px;
+    margin-left:75%;
+    border:1px solid black;
+    border-radius: 7px;
+}
+select{
+    width:100%;
+}
+button {
+    position: absolute;
+    width:10%;
+    min-height:30px;
+    margin-left:5%;
+    border:1px solid black;
+    border-radius: 7px;
+    background-color: white;
+}
+button:hover{
+    cursor:pointer;
+    background-color:grey;
+}
+button:active{
+    background-color: rgb(234, 151, 151);
+}
